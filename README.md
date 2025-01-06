@@ -112,10 +112,7 @@ If you encounter any issues or have questions, please open an issue on **[GitHub
 
 ---
 
-## Tips
-
-1. Include a badge for NPM downloads, version, and license:
-
-   ![npm](https://img.shields.io/npm/v/node-apm-agent)
-   ![license](https://img.shields.io/npm/l/node-apm-agent)
-   ![downloads](https://img.shields.io/npm/dm/node-apm-agent)
+![npm](https://img.shields.io/npm/v/node-apm-agent)
+![license](https://img.shields.io/npm/l/node-apm-agent)
+![downloads](https://img.shields.io/npm/dm/node-apm-agent)
+![views](https://komarev.com/ghpvc/?username=nirhuri&repo=node-apm-agent)
