@@ -5,8 +5,14 @@ import pidusage from "pidusage";
 import sqlite3 from "sqlite3";
 import psList from "ps-list";
 
-const dashboardHtml = fs.readFileSync(path.resolve("index.html"), "utf8");
-const processViewHtml = fs.readFileSync(path.resolve("process.html"), "utf8");
+const dashboardHtml = fs.readFileSync(
+  path.resolve(__dirname, "index.html"),
+  "utf8"
+);
+const processViewHtml = fs.readFileSync(
+  path.resolve(__dirname, "process.html"),
+  "utf8"
+);
 
 const dbClass = sqlite3.verbose();
 let db;
