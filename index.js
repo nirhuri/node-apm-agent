@@ -4,6 +4,10 @@ import express from "express";
 import pidusage from "pidusage";
 import sqlite3 from "sqlite3";
 import psList from "ps-list";
+import { fileURLToPath } from "url";
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
 
 const dashboardHtml = fs.readFileSync(
   path.resolve(__dirname, "index.html"),
