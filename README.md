@@ -17,7 +17,7 @@ A lightweight Node.js monitoring agent with a built-in dashboard to monitor memo
 Install the package globally using NPM:
 
 ```bash
-npm install -g your-package-name
+npm install -g node-apm-agent
 ```
 
 ---
@@ -27,7 +27,7 @@ npm install -g your-package-name
 Run the agent directly from the CLI:
 
 ```bash
-node-apm-agent
+node-apm-agent start
 ```
 
 ### Options
@@ -45,19 +45,19 @@ node-apm-agent
 #### Run with default settings:
 
 ```bash
-node-apm-agent
+node-apm-agent start
 ```
 
 #### Specify a custom port and monitoring interval:
 
 ```bash
-node-apm-agent --port 4000 --interval 5000
+node-apm-agent start --port 4000 --interval 5000
 ```
 
 #### Monitor processes for a specific application:
 
 ```bash
-node-apm-agent --app-name "my-app"
+node-apm-agent start --app-name "my-app"
 ```
 
 ---
@@ -79,6 +79,12 @@ Replace `<port>` with the port specified (default is `3000`).
 ## Stopping the Agent
 
 To stop the agent, press `Ctrl+C`. The SQLite database will not retain historical data.
+
+#### Or
+
+```bash
+node-apm-agent stop
+```
 
 ---
 
