@@ -1,5 +1,5 @@
 {
-  "name": "process-monitor",
+  "name": "node-apm-agent",
   "version": "1.0.0",
   "description": "A lightweight library to monitor processes and view stats in a simple dashboard",
   "main": "index.js",
@@ -9,9 +9,8 @@
   "bin": {
     "node-apm-agent": "./cli.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/nirhuri/node-apm-agent.git"
+  "scripts": {
+    "start": "node index.js"
   },
   "dependencies": {
     "commander": "^13.0.0",
@@ -20,9 +19,5 @@
     "ps-list": "^8.1.1",
     "sqlite3": "^5.1.2",
     "systeminformation": "^5.12.0"
-  },
-  "bugs": {
-    "url": "https://github.com/nirhuri/node-apm-agent/issues"
-  },
-  "homepage": "https://github.com/nirhuri/node-apm-agent#readme"
+  }
 }

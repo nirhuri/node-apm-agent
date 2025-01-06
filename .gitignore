@@ -1,3 +1,4 @@
 node_modules/
 process_history.db
 .env
+.trunk/
