@@ -78,7 +78,7 @@ Replace `<port>` with the port specified (default is `3000`).
 
 ## Stopping the Agent
 
-To stop the agent, press `Ctrl+C`. The SQLite database will retain historical data unless explicitly cleared.
+To stop the agent, press `Ctrl+C`. The SQLite database will not retain historical data.
 
 ---
 
