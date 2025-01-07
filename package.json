@@ -1,6 +1,6 @@
 {
   "name": "node-apm-agent",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "A lightweight library to monitor processes and view stats in a simple dashboard",
   "main": "index.js",
   "author": "Your Name",
